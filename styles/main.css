@@ -1,0 +1,141 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: #00203F;
+}
+
+.navbar-brand>img {
+    width: 48px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-item.active .nav-link {
+    color: #ADF0D1 !important;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.today {
+    min-height: 30vh;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+#red {
+    background-color: rgb(231, 0, 0);
+}
+
+table {
+    text-align: center;
+}
+
+.table_con {
+    width: 70%;
+    margin: auto;
+}
+
+.today>h2 {
+    color: #00203F;
+    font-weight: bold;
+}
+
+.today>h1 {
+    font-weight: bold;
+}
+
+.values {
+    width: 40%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property {
+    color: #00203F;
+    font-weight: bold;
+}
+
+#add {
+    padding: 30px;
+    text-align: center;
+}
+
+#addHeader {
+    color: #00203F;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #00203F;
+}
+
+.form-group>label {
+    font-weight: bold;
+    float: left;
+}
+
+.btn {
+    width: 100%;
+    background-color: #00203F;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ADF0D1;
+    color: #00203F;
+}
+
+footer>nav {
+    text-align: center;
+    flex-direction: column;
+}
+
+footer>nav>* {
+    color: white;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 25px;
+    width: 1000px;
+    height: 400px;
+}
+
+canvas {
+    width: 100%;
+}
+
+.graph {
+    margin: 20px auto;
+}
+
+@media (max-width: 992px) {
+    .values {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .values {
+        width: 100%;
+    }
+}
